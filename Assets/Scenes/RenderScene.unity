@@ -1044,6 +1044,62 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 140413653}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &230059785
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 230059786}
+  - component: {fileID: 230059787}
+  m_Layer: 0
+  m_Name: Coffee Stain Projector (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &230059786
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230059785}
+  m_LocalRotation: {x: 0.034788523, y: 0.7062505, z: -0.7062505, w: 0.034788523}
+  m_LocalPosition: {x: 0, y: 0.09, z: 0}
+  m_LocalScale: {x: 1.5999998, y: 1.5999999, z: 1.5999999}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 329879302}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 5.64}
+--- !u!114 &230059787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 230059785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 502635f68a7fcd04585ddd4e496deccc, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 0.25, y: 0.25, z: 1}
+  m_FadeFactor: 0.202
 --- !u!1 &234948955
 GameObject:
   m_ObjectHideFlags: 0
@@ -1659,7 +1715,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 400000, guid: 5d6c30121090d45d8acf26dd573596cb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 230059786}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d6c30121090d45d8acf26dd573596cb, type: 3}
 --- !u!4 &329879302 stripped
@@ -2085,6 +2145,62 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 476086877}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &523674413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 523674414}
+  - component: {fileID: 523674415}
+  m_Layer: 0
+  m_Name: Coffee Stain Projector (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &523674414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523674413}
+  m_LocalRotation: {x: 0.6271019, y: -0.32656255, z: 0.3264486, w: 0.6273208}
+  m_LocalPosition: {x: 0.017, y: 0.73, z: 0.212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1751614169}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 89.98, y: -55, z: 0}
+--- !u!114 &523674415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523674413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: b63f4eeb076b3674fbd58389439c3870, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 0.25, y: 0.25, z: 1}
+  m_FadeFactor: 1
 --- !u!1001 &531928643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6163,6 +6279,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1043707614}
+    - targetCorrespondingSourceObject: {fileID: 400004, guid: c54888821145a4c17a3e9ad7e5ca69de,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1868469349}
+    - targetCorrespondingSourceObject: {fileID: 400004, guid: c54888821145a4c17a3e9ad7e5ca69de,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 523674414}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c54888821145a4c17a3e9ad7e5ca69de, type: 3}
 --- !u!4 &1751614169 stripped
@@ -6510,6 +6634,62 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1844952885}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1868469348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868469349}
+  - component: {fileID: 1868469350}
+  m_Layer: 0
+  m_Name: Coffee Stain Projector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1868469349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868469348}
+  m_LocalRotation: {x: 0.67426205, y: 0.21266818, z: -0.21259397, w: 0.6744974}
+  m_LocalPosition: {x: 0.564, y: 0.73, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1751614169}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 89.98, y: 35, z: 0}
+--- !u!114 &1868469350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868469348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0777d029ed3dffa4692f417d4aba19ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: b3814c7279564904db1d7d80907ff3c3, type: 2}
+  m_DrawDistance: 1000
+  m_FadeScale: 0.9
+  m_StartAngleFade: 180
+  m_EndAngleFade: 180
+  m_UVScale: {x: 1, y: 1}
+  m_UVBias: {x: 0, y: 0}
+  m_DecalLayerMask: 1
+  m_ScaleMode: 0
+  m_Offset: {x: 0, y: 0, z: 0.5}
+  m_Size: {x: 0.25, y: 0.25, z: 1}
+  m_FadeFactor: 1
 --- !u!1001 &1899360682
 PrefabInstance:
   m_ObjectHideFlags: 0
